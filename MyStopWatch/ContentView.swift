@@ -31,11 +31,11 @@ struct ContentView: View {
                     Text(":")
                         .font(.largeTitle)
                         .foregroundColor(.white)
-                    TimeLabelStyle(labelText: "\(seconds)")
+                    TimeLabelStyle(labelText: seconds < 10 ? "0" + "\(seconds)" : "\(seconds)")
                     Text(".")
                         .font(.largeTitle)
                         .foregroundColor(.white)
-                    TimeLabelStyle(labelText: "\(miSeconds)")
+                    TimeLabelStyle(labelText: miSeconds < 10 ? "0" + "\(miSeconds)" : "\(miSeconds)")
                 } // HStack
                 
                 HStack{
