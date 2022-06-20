@@ -44,20 +44,14 @@ struct ContentView: View {
                             vm.pauseStopWatch()
                             self.isPlaying = false
                         } label: {
-                            Text("Pause")
-                                .font(.system(size: 30, weight: .thin, design: .rounded))
-                                .padding()
-                                .foregroundColor(.white)
+                            ButtonStyle(title: "pause")
                         }
                     } else {
                         Button {
                             vm.playStopWatch()
                             self.isPlaying = true
                         } label: {
-                            Text("Play")
-                                .font(.system(size: 30, weight: .thin, design: .rounded))
-                                .padding()
-                                .foregroundColor(.white)
+                            ButtonStyle(title: "play")
                         }
                         
                     }
@@ -65,10 +59,7 @@ struct ContentView: View {
                         vm.resetStopWatch()
                         self.isPlaying = false
                     } label: {
-                        Text("Reset")
-                            .font(.system(size: 30, weight: .thin, design: .rounded))
-                            .padding()
-                            .foregroundColor(.white)
+                        ButtonStyle(title: "Reset")
                     }
 
                 }

@@ -13,6 +13,7 @@
 		7F6C58B12816703C00520436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C58B02816703C00520436 /* ContentView.swift */; };
 		7F6C58B32816703E00520436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6C58B22816703E00520436 /* Assets.xcassets */; };
 		7F6C58B62816703E00520436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6C58B52816703E00520436 /* Preview Assets.xcassets */; };
+		7F8CAE1528176A7C00C48181 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CAE1428176A7C00C48181 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7F6C58B02816703C00520436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F6C58B22816703E00520436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F6C58B52816703E00520436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F8CAE1428176A7C00C48181 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				7F6C58AE2816703C00520436 /* MyStopWatchApp.swift */,
 				7F6C58B02816703C00520436 /* ContentView.swift */,
+				7F8CAE1428176A7C00C48181 /* ButtonStyle.swift */,
 				7F0A87A82816871C0035E00E /* Model.swift */,
 				7F0A87A628167B490035E00E /* TimeLabelStyle.swift */,
 				7F6C58B22816703E00520436 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				7F0A87A728167B490035E00E /* TimeLabelStyle.swift in Sources */,
 				7F6C58B12816703C00520436 /* ContentView.swift in Sources */,
 				7F6C58AF2816703C00520436 /* MyStopWatchApp.swift in Sources */,
+				7F8CAE1528176A7C00C48181 /* ButtonStyle.swift in Sources */,
 				7F0A87A92816871C0035E00E /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
