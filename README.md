@@ -3,8 +3,12 @@ Basic stop watch
 
 <img width="397" alt="스크린샷 2022-06-21 오전 8 22 54" src="https://user-images.githubusercontent.com/90740892/174688286-d9099b36-39a5-4dfa-a211-e20b242ed387.png">. 
 
-0.01초 단위로 표현한 기본적인 스탑워치. 
+미리보기:
 
+![CustomStopWatch](https://user-images.githubusercontent.com/90740892/178312212-7d97d205-95c3-45e3-8c41-d1b0e436d1cc.gif)
+
+
+0.01초 단위로 표현한 기본적인 스탑워치. 
 
 Play 버튼을 누르면 시작되고. 
 
